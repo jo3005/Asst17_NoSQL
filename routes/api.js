@@ -37,7 +37,7 @@ router.get("/api/lastworkout", (req, res) => {
     .sort({ day: -1 })
     .limit(1)
     .then(dbWorkout => {
-      console.log(dbWorkout[0]);
+      //console.log(dbWorkout[0]);
       res.json(dbWorkout);
       })
       .catch(err => {
