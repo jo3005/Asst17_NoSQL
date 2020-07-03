@@ -43,12 +43,7 @@ const workoutSchema=new Schema({
         unique: false,
         required: false
       }
-    }] /* ,
-    totalDuration2:{
-      type:Number,
-      unique: false,
-      required: false
-    } */
+    }] 
 
 }, {
   toObject: {

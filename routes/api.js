@@ -3,7 +3,7 @@ const db = require("../models");
 
 
 router.post("/api/workouts", (req, res) => {
-    console.log("Adding a new workout",req)
+    console.log("Adding a new workout")
     
     db.Workout.create({})
         .then(dbWorkout => {
